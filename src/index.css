@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #A45C40;
+  background-color:#F6EEE0;
+}
+
+h5,h2,h3,h4{
+  text-decoration: none;
+  color: #141823;
+  font-family: 'Arbutus Slab', serif;
+}
+img {
+  width: 70%;
+  height: 70%;
+}
+h1 {
+  font-size:4.5rem;
+  color: #141823;
+  font-family: 'Castoro', serif;
+  font-weight:500;
+}
+a {
+  text-decoration: none;
+  color: #393b3e;
+  font-family: 'Arbutus Slab', serif;
+}
+a:hover
+{
+  color: #141823;
+}
+
+
+.linkHover:hover
+{
+  background-color: #d4a085;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0 10px #d4a085;
+}
+p{
+  color: #453C41;
+  font-family: 'Crete Round', serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 1.4em;
+}
+
+
+#skills ,#education,#about,#footer
+{
+  clear: both;
+  margin: 150px auto 0px auto;
+}
+
+/* Navbar section*/
+
+.brandName
+{
+  font-family: 'Inspiration', cursive;
+  font-weight: bold;
+}
+
+.nav-button
+{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: #dead94;
+}
+
+.navBar {
+  background-color: #E4B7A0;
+}
+.navBar h1 {
+  font-size: 4rem;
+}
+
+.navBar-links {
+  margin: 20px;
+  align-content: center;
+}
+
+.navBar-links a {
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.offcan-links1 a
+{
+  display: block;
+  margin: 30px auto;
+}
+.offcan-links2 
+{
+ position: absolute;
+ bottom: 3%;
+ left: 27%;
+}
+
+/* IntroPage section */
+
+.myIntro h1
+{
+  font-family: 'Crete Round', serif;
+}
+
+
+.intro {
+  
+  padding: 100px;
+  margin: 150px auto;
+  justify-content: center;
+}
+
+.intro img {
+  margin-left: 20px;
+}
+
+.intro h1 {
+  font-size: 4rem;
+}
+
+
+
+/* About Section */
+.aboutPage {
+  text-align: left;
+}
+
+.resume
+{
+  color:white;
+  background-color: #d79074;
+  border: 0px;
+  border-radius: 7px;
+
+  padding:13px;
+}
+
+/* Education section */
+.edu1,
+.edu2 {
+  margin: 30px 0;
+  text-align: left;
+}
+.edu1 img {
+  float: left;
+  width: 38%;
+  height: 100%;
+  margin-right: 100px;
+  clear: both;
+}
+.edu2 img {
+  margin-right: 0;
+  float: right;
+  width: 38%;
+  height: 100%;
+  clear: both;
+}
+.edu1-textMain,
+.edu2-textMain {
+  margin-top: 5%;
+}
+
+.edu2-textMain,
+.edu2-text {
+  margin-left: 5%;
+}
+
+/* Skills section */
+
+
+.progress-container
+{
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar
+{
+  padding: 3px;
+  width:400px;
+  height: 20px;
+  border-radius: 15px;
+  border: 2px solid #B9B7BD;
+  margin-left: 50px;
+}
+
+
+/* Footer Section */
+
+.endingCard
+{
+  width: 370px;
+  height: 230px;
+  padding: 35px;
+  margin: 20px;
+  background-color: white;
+  border-radius:15px;
+  box-shadow: 10px 10px 20px;
+}
+.addEndingCard
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.endingCard:hover
+{
+  padding: 35px;
+  margin: 20px;
+  background-color: #fdf9f2;
+  border-radius:15px;
+  box-shadow: 5px 5px 10px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .aboutPage {
+    text-align: center;
+  }
+  .intro {
+    padding: 5px;
+    margin-top: 60px;
+  }
+  .edu1,
+  .edu2 {
+    text-align: center;
+  }
+  .edu1 img,
+  .edu2 img {
+    float: none;
+    width: 90%;
+    height: 65%;
+    margin: 0;
+  }
+  .myIntro h1
+{
+  font-family: 'Crete Round', serif;
+  font-size: 7.5vh;
+}
+  .edu1-textMain,
+  .edu2-textMain {
+    margin-top: 5%;
+  }
+  .endingCard
+  {
+    width: 340px;
+    margin: 30px;
+  }
+}
