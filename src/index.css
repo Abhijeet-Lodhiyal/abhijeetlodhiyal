@@ -111,18 +111,18 @@ p{
 }
 
 
-.intro {
+.intro-container {
   
   padding: 100px;
   margin: 150px auto;
   justify-content: center;
 }
 
-.intro img {
+.intro-container img {
   margin-left: 20px;
 }
 
-.intro h1 {
+.intro-container h1 {
   font-size: 7vh;
 }
 
