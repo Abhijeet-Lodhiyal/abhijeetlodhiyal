@@ -51,12 +51,16 @@ p{
 }
 
 
-#skills ,#education,#about,#footer
+#skills ,#education,#about,#footer,#intro
 {
   clear: both;
   margin: 150px auto 0px auto;
 }
 
+.intro-container
+{
+  margin-top: 200px;
+}
 /* Navbar section*/
 
 .brandName
@@ -108,18 +112,6 @@ p{
 .myIntro h1
 {
   font-family: 'Crete Round', serif;
-}
-
-
-.intro-container {
-  
-  padding: 100px;
-  margin: 150px auto;
-  justify-content: center;
-}
-
-.intro-container h1 {
-  font-size: 7vh;
 }
 
 
@@ -221,11 +213,7 @@ p{
   .aboutPage {
     text-align: center;
   }
-  .intro-container{
-    margin: 0;
-    margin-top: 60px;
-  padding: 0;    
-  }
+
   .edu1,
   .edu2 {
     text-align: center;
@@ -236,6 +224,12 @@ p{
     width: 90%;
     height: 65%;
     margin: 0;
+  }
+  .intro-container
+  {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
   }
 
 
