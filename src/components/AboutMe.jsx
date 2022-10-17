@@ -17,7 +17,7 @@ function AboutMe() {
             hidden:{opacity:0.6}
         }}
         >
-            <h1 className='p-5'><FaUserAlt size={45} className='mb-3'/>  About Me</h1>
+            <h1 className='p-3'><FaUserAlt size={45} className='mb-3'/> About Me</h1>
             <div className='container aboutPage'>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6 p-3'>
