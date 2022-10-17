@@ -26,7 +26,7 @@ function Navigation() {
                     <a href="#about" className="linkHover">About</a>
                     <a href="#footer"  className="linkHover">Contact</a>
                     <a href="#skills" className="linkHover">Skills</a>
-                    <a href="#skills" className="linkHover">Resume</a>
+                    <a href="#about" className="linkHover">Resume</a>
                 </div>
             </>;
     }
@@ -50,14 +50,14 @@ function Navigation() {
         </div>
         <Offcanvas id="offcanvasExample" show={showCanvas} onHide={handleClose}>
             <Offcanvas.Header closeButton>
-                <Offcanvas.Title><h1 className="brandName">Alo</h1></Offcanvas.Title>
+                <Offcanvas.Title><h1 className="brandName sizeLogo">Alo</h1></Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
             <div className="offcan-links1">
                     <a href="#about" onClick={() =>{closeCanvas("about")}} >About</a>
                     <a href="#footer" onClick={() =>{closeCanvas("footer")}}>Contact</a>
                     <a href="#skills" onClick={() => {closeCanvas("skills")}}>Skills</a>
-                    <a href="#skills" onClick={() => {closeCanvas("skills")}}>Resume</a>
+                    <a href="#about" onClick={() => {closeCanvas("skills")}}>Resume</a>
                 </div>
                     <div className='offcan-links2'>
                         <a href='https://www.linkedin.com/in/abhijeet-lodhiyal-45a572221 '><SiLinkedin  size={25} color="#1956EE" className='m-3'/></a>

@@ -14,7 +14,6 @@ function Education() {
                 }
             }
         >
-            
             <h1><FaBook className='mb-3' size={45}/>  Education</h1>
             <div className='container'>
                 <div className='row'>
