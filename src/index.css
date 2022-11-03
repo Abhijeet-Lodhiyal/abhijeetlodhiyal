@@ -160,26 +160,6 @@ p{
   margin-left: 5%;
 }
 
-/* Skills section */
-
-
-.progress-container
-{
-  display: flex;
-  align-items: center;
-}
-
-.progress-bar
-{
-  padding: 3px;
-  width:400px;
-  height: 20px;
-  border-radius: 15px;
-  border: 2px solid #B9B7BD;
-  margin-left: 50px;
-}
-
-
 /* Footer Section */
 
 .endingCard
@@ -231,8 +211,6 @@ p{
     margin-bottom: 60px;
     
   }
-
-
 
   .edu1-textMain,
   .edu2-textMain {
