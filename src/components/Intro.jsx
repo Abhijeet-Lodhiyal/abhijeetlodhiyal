@@ -1,7 +1,6 @@
 import React from "react";  
 import myImg2 from  "../images/myImg2.jpg";
 import Typed from "react-typed";
-import {motion} from 'framer-motion'
 function Intro()
 {
     return(
@@ -17,11 +16,8 @@ function Intro()
                             loop></Typed></h3>
                     </div>
                     <div className="col-12 col-lg-6 p-2">
-                        <motion.img src={myImg2} alt="myimage" 
-                            initial={{x:1100}}
-                            animate={{x:0}}
-                            transition={{delay:1.5 , duration:0.9 }}
-                        ></motion.img>
+                        <img src={myImg2} alt="myimage"
+                        ></img>
                     </div>
                 </div>
             </div>
