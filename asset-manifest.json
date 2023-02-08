@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/abhijeetlodhiyal/static/css/main.b06b8da9.css",
-    "main.js": "/abhijeetlodhiyal/static/js/main.37b53a10.js",
+    "main.css": "/abhijeetlodhiyal/static/css/main.68b577e1.css",
+    "main.js": "/abhijeetlodhiyal/static/js/main.bca505bb.js",
     "static/media/myImg2.jpg": "/abhijeetlodhiyal/static/media/myImg2.df037d529d6b566aafd3.jpg",
     "static/media/myImg.jpg": "/abhijeetlodhiyal/static/media/myImg.84844df2ff57cf496fa6.jpg",
+    "static/media/im2.png": "/abhijeetlodhiyal/static/media/im2.56456f1d09a1970e7137.png",
+    "static/media/im1.png": "/abhijeetlodhiyal/static/media/im1.9d76b833102467b27b53.png",
     "static/media/myResume.pdf": "/abhijeetlodhiyal/static/media/myResume.1c94ba20fbb787de70ee.pdf",
     "index.html": "/abhijeetlodhiyal/index.html",
-    "main.b06b8da9.css.map": "/abhijeetlodhiyal/static/css/main.b06b8da9.css.map",
-    "main.37b53a10.js.map": "/abhijeetlodhiyal/static/js/main.37b53a10.js.map"
+    "main.68b577e1.css.map": "/abhijeetlodhiyal/static/css/main.68b577e1.css.map",
+    "main.bca505bb.js.map": "/abhijeetlodhiyal/static/js/main.bca505bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b06b8da9.css",
-    "static/js/main.37b53a10.js"
+    "static/css/main.68b577e1.css",
+    "static/js/main.bca505bb.js"
   ]
 }
